@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <modelVersion>1.1.0</modelVersion>
+  <groupId>org.sonatype.nexus.examples</groupId>
+  <artifactId>virusscan-nexus-plugin</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>org.sonatype.nexus.examples:virusscan-nexus-plugin</name>
+  <description>org.sonatype.nexus.examples:virusscan-nexus-plugin</description>
+  <pluginSite>http://links.sonatype.com/products/nexus/oss/home</pluginSite>
+  <applicationId>nexus</applicationId>
+  <licenses>
+    <license>
+      <type>Eclipse Public License</type>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+    </license>
+  </licenses>
+</plugin>

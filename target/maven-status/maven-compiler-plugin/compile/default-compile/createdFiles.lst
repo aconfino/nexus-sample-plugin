@@ -1,0 +1,6 @@
+org\sonatype\nexus\examples\virusscan\VirusScannerRequestProcessor.class
+org\sonatype\nexus\examples\virusscan\VirusScannerRepositoryCustomizer.class
+org\sonatype\nexus\examples\virusscan\ExampleVirusScanner.class
+META-INF\sisu\javax.inject.Named
+org\sonatype\nexus\examples\virusscan\InfectedItemFoundEvent.class
+org\sonatype\nexus\examples\virusscan\VirusScanner.class

@@ -1,0 +1,5 @@
+C:\workspace\nexus-sample-plugin\src\main\java\org\sonatype\nexus\examples\virusscan\VirusScannerRequestProcessor.java
+C:\workspace\nexus-sample-plugin\src\main\java\org\sonatype\nexus\examples\virusscan\InfectedItemFoundEvent.java
+C:\workspace\nexus-sample-plugin\src\main\java\org\sonatype\nexus\examples\virusscan\VirusScannerRepositoryCustomizer.java
+C:\workspace\nexus-sample-plugin\src\main\java\org\sonatype\nexus\examples\virusscan\ExampleVirusScanner.java
+C:\workspace\nexus-sample-plugin\src\main\java\org\sonatype\nexus\examples\virusscan\VirusScanner.java

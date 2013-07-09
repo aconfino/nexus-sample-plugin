@@ -1,0 +1,6 @@
+21:39:33.747 [main] INFO  o.s.n.e.v.ExampleVirusScannerTest - TEST infectedItem STARTING
+21:39:34.635 [main] INFO  o.s.n.e.v.ExampleVirusScannerTest - TEST infectedItem SUCCEEDED
+21:39:34.636 [main] INFO  o.s.n.e.v.ExampleVirusScannerTest - TEST infectedItem FINISHED
+21:39:34.646 [main] INFO  o.s.n.e.v.ExampleVirusScannerTest - TEST nonInfectedItem STARTING
+21:39:34.649 [main] INFO  o.s.n.e.v.ExampleVirusScannerTest - TEST nonInfectedItem SUCCEEDED
+21:39:34.649 [main] INFO  o.s.n.e.v.ExampleVirusScannerTest - TEST nonInfectedItem FINISHED
