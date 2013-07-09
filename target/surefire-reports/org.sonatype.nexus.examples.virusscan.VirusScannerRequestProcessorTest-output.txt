@@ -1,4 +1,0 @@
-21:39:34.686 [main] INFO  o.s.n.e.v.VirusScannerRequestProcessorTest - TEST allScannersConsulted STARTING
-21:39:34.906 [main] WARN  o.s.n.e.v.VirusScannerRequestProcessor - Infection detected in item: null
-21:39:34.926 [main] INFO  o.s.n.e.v.VirusScannerRequestProcessorTest - TEST allScannersConsulted SUCCEEDED
-21:39:34.926 [main] INFO  o.s.n.e.v.VirusScannerRequestProcessorTest - TEST allScannersConsulted FINISHED

@@ -18,15 +18,24 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.sonatype.nexus.examples</groupId>
-    <artifactId>nexus-examples</artifactId>
-    <version>1.0-SNAPSHOT</version>
+ <parent>
+    <groupId>org.sonatype.nexus.plugins</groupId>
+    <artifactId>nexus-plugins</artifactId>
+    <version>2.6.0-SNAPSHOT</version>
   </parent>
 
+  <groupId>com.confino.nexus.plugins</groupId>
   <artifactId>virusscan-nexus-plugin</artifactId>
   <name>${project.groupId}:${project.artifactId}</name>
+  <version>1.0-SNAPSHOT</version>
   <packaging>nexus-plugin</packaging>
+  
+    <repositories>
+    <repository>
+      <id>rso-public-grid</id>
+      <url>https://repository.sonatype.org/content/groups/sonatype-public-grid/</url>
+    </repository>
+  </repositories>
 
   <dependencies>
     <dependency>
@@ -41,5 +50,30 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+    <build>
+    <plugins>
+      <!--
+      Enables the 'nexus-plugin' packaging type, required to build Nexus plugins.
+      -->
+      <plugin>
+        <groupId>org.sonatype.nexus</groupId>
+        <artifactId>nexus-plugin-bundle-maven-plugin</artifactId>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <!--
+    Building Nexus Professional plugins requires additional build configuration, disable by default.
+    -->
+    <profile>
+      <id>pro-plugins</id>
+      <modules>
+        <module>pro-plugins</module>
+      </modules>
+    </profile>
+  </profiles>
 
 </project>
